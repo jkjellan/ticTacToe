@@ -5,6 +5,7 @@
     <title>Tic Tac Toe</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -13,29 +14,29 @@
 
     <main>
       <div class="p1">
-        <div class= "x-sideline">X</div>
-        <div class= "x-sideline">X</div>
-        <div class= "x-sideline">X</div>
-        <div class= "x-sideline">X</div>
-        <div class= "x-sideline">X</div>
+        <div id="x0" class= "x-sideline"></div>
+        <div id="x1" class= "x-sideline"></div>
+        <div id="x2" class= "x-sideline"></div>
+        <div id="x3" class= "x-sideline"></div>
+        <div id="x4" class= "x-sideline"></div>
       </div>
       <div class="gameBoardWrapper">
+        <div id="0" class="square b r"></div>
         <div id="1" class="square b r"></div>
-        <div id="2" class="square b r"></div>
-        <div id="3" class="square b"></div>
+        <div id="2" class="square b"></div>
+        <div id="3" class="square b r"></div>
         <div id="4" class="square b r"></div>
-        <div id="5" class="square b r"></div>
-        <div id="6" class="square b"></div>
+        <div id="5" class="square b"></div>
+        <div id="6" class="square r"></div>
         <div id="7" class="square r"></div>
-        <div id="8" class="square r"></div>
-        <div id="9" class="square"></div>
+        <div id="8" class="square"></div>
       </div>
       <div class="p2">
-        <div class= "o-sideline">O</div>
-        <div class= "o-sideline">O</div>
-        <div class= "o-sideline">O</div>
-        <div class= "o-sideline">O</div>
-      </main>
+        <div id="o0" class= "o-sideline"></div>
+        <div id="o1" class= "o-sideline"></div>
+        <div id="o2" class= "o-sideline"></div>
+        <div id="o3" class= "o-sideline"></div>
+      </div>
 
     </main>
 

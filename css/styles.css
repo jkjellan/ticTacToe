@@ -78,16 +78,21 @@ main {
   height: 200px;
   float: left;
   background: #00528C;
-
+  text-align: center;
+  line-height: 200px;
+  font-size: 100px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 .l {
-  border-left: 3px solid white;
+  border-left: 5px solid white;
 }
 .b {
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 .r {
-  border-right: 3px solid white;
+  border-right: 5px solid white;
 }
 
 
