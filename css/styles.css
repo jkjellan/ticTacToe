@@ -118,6 +118,8 @@ width: 230px;
 
 main {
   padding: 0 70px;
+
+
 }
 .gameBoardWrapper {
   width: 600px;
@@ -156,4 +158,73 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-bottom: 70px;
+    min-width: 750px;
+  }
+
+  main {
+    position: relative;
+  }
+
+  .p2 {
+    top: 0;
+  }
+  .p1-prompt {
+    height: 70px;
+    width: 100%;
+    background: none;
+    float: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 30px;
+  }
+  .p1-prompt-inner {
+    position: relative;
+    display: block;
+    height: 70px;
+    width: 100%;
+  }
+  .p1-prompt-text {
+    display: block;
+    /*vertical-align: middle;*/
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin: 0;
+  }
+  .p2-prompt {
+    height: 70px;
+    width: 100%;
+    background: none;
+    float: none;
+    position: static;
+    left: 0;
+    bottom: 70px;
+    font-size: 30px;
+  }
+  .p2-prompt-inner {
+  position: static;
+  display: block;
+  height: 70px;
+  width: 100%;
+  }
+  .p2-prompt-text {
+    display: block;
+    /*vertical-align: middle;*/
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin: 0;
+  }
 }
