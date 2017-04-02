@@ -16,7 +16,7 @@ body {
   margin: 0;
   position: relative;
   padding: 130px 0;
-  min-width: 750px;
+  min-width: 1200px;
 }
 
 header {
@@ -28,6 +28,28 @@ header {
   right: 0;
 }
 
+.p1-prompt {
+height: 600px;
+width: 230px;
+background: none;
+float: left;
+position: relative;
+}
+.p1-prompt-inner {
+position: absolute;
+display: table;
+height: 600px;
+width: 230px;
+}
+.p1-prompt-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #323232;
+}
 .p1 {
   height: 600px;
   background: #4a4a4a;
@@ -43,6 +65,31 @@ header {
   width: 100%;
   line-height: 120px;
   color: white;
+}
+.p2-prompt {
+  height: 600px;
+  width: 230px;
+  background: none;
+  float: right;
+  position: absolute;
+  right: 70px;
+  top: 130px;
+  font-size: 30px;
+}
+.p2-prompt-inner {
+position: absolute;
+display: table;
+height: 600px;
+width: 230px;
+}
+.p2-prompt-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #323232;
 }
 .p2 {
   height: 600px;

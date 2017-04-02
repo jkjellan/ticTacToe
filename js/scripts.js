@@ -35,10 +35,14 @@ $('.square').on('click',function(e) {
 
   if((length % 2 === 0) && (squareClicked === undefined)) {
     boardArray[+$(this).attr('id')] = 'x'
+    $('.p2-prompt-text').html("It's your turn, Player Two!")
+    $('.p1-prompt-text').html("")
     xLeft.pop()
     renderBoard(boardArray, xLeft, oLeft)
   } else if ((length % 2 === 1) && (squareClicked === undefined)){
     boardArray[+$(this).attr('id')] = 'o'
+    $('.p1-prompt-text').html("It's your turn, Player One!")
+    $('.p2-prompt-text').html("")
     oLeft.pop()
     renderBoard(boardArray, xLeft, oLeft)
   } else {
