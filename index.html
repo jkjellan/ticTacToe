@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Tic Tac Toe</title>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700|Noto+Sans:400,500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
@@ -11,9 +11,15 @@
     <header>
       <div class="title">TIC TAC TOE</div>
       <div class="scoreWrapper">
-        <div class="p1Score">Player One: 0</div>
-        <div class="drawScore">Draw: 0</div>
-        <div class="p2Score">Player Two: 0</div>
+        <div id="player0" class="p1Score">
+          <span id="score0" class="score">0</span>
+        </div>
+        <div id="player1" class="drawScore">
+          <span id="score1" class="score">0</span>
+        </div>
+        <div id="player2" class="p2Score">
+          <span id="score2" class="score">0</span>
+        </div>
       </div>
     </header>
 

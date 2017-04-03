@@ -43,9 +43,10 @@ header {
   height: 70px;
   line-height: 70px;
   padding: 0 10px;
-  font-size: 35px;
-  font-family: "Droid Serif", sans-serif;
-  font-weight: 900;
+  font-size: 30px;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
   color: #323232;
 }
 .p1Score {
@@ -63,6 +64,12 @@ header {
   width: 33%;
   text-align: right;
 }
+.score {
+  font-family: 'Noto Sans', sans-serif;
+  background: #323232;
+  padding: 0 12px;
+  color: white;
+}
 
 .p1-prompt {
 height: 600px;
@@ -78,13 +85,15 @@ height: 600px;
 width: 230px;
 }
 .p1-prompt-text {
+
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 600;
   color: #323232;
+  /*padding: 0 10px;*/
 }
 .p1 {
   height: 600px;
@@ -122,10 +131,11 @@ width: 230px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 600;
   color: #323232;
+  /*padding: 0 10px;*/
 }
 .p2 {
   height: 600px;
@@ -223,12 +233,13 @@ footer {
     display: block;
     /*vertical-align: middle;*/
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 70px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     color: #323232;
     margin: 0;
+
   }
   .p2-prompt {
     height: 70px;
@@ -250,11 +261,12 @@ footer {
     display: block;
     /*vertical-align: middle;*/
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 70px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     color: #323232;
     margin: 0;
+
   }
 }
